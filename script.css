@@ -1,0 +1,31 @@
+#gameb{
+    width:570px;
+    height:570px;
+    background-color: aquamarine;
+    margin: 0 auto;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+#game-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    gap: 20px; /* Add spacing between the elements */
+    margin-top: 20px; /* Optional spacing from the top */
+}
+.square{
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+#startbtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
